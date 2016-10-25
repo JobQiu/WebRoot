@@ -13,7 +13,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 </head>
 
-<frameset rows="98,*,8" frameborder="no" border="0" framespacing="0">
+<frameset rows="3,*,8" frameborder="no" border="0" framespacing="0">
   <frame src="<%=basePath%>jsp/manager/top.jsp" name="topFrame" scrolling="no" noresize="noresize" id="topFrame" />
   <frame src="<%=basePath%>jsp/manager/center.jsp" name="mainFrame" id="mainFrame" />
   <frame src="<%=basePath%>jsp/manager/down.jsp" name="bottomFrame" scrolling="no" noresize="noresize" id="bottomFrame" />
