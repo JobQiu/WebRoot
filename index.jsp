@@ -1,8 +1,10 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ page isELIgnored="false" %>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
@@ -34,11 +36,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
             <form action="login" method="post">
                 <input type="text" name="username" class="username" placeholder="Username">
                 <input type="password" name="password" class="password" placeholder="Password">
-                <button type="submit">Sign me in</button>
+                <button type="submit">Sign  in</button>
+                <button type="button" style="background: #FFF68F; border: #FFF68F" >Sign up</button>
                 <input  class="power"  type="radio" name="power"  value="admin"/>&nbsp<span class="check">管理员</span>
                 <input class="power" type="radio" name="power"  value="counter"  checked="checked"/>&nbsp<span class="check">用户</span>
                 <input class="power" type="checkbox" name="remember" value="remenber" />&nbsp<span class="check">記住密碼</span>
-                <span class="check"><a href="">忘記密碼</a></span>
+                <span class="check"><a href="" style="text-decoration: none; color:yellow;">忘記密碼</a></span>
                 <div class="error"><span>+</span></div>
             </form>
             <!-- <div class="connect">
