@@ -11,7 +11,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <head>
 
         <meta charset="utf-8">
-        <title>Fullscreen Login</title>
+        <title>欢迎使用个人资金管理系统</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -34,10 +34,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         <div class="page-container">
             <h1>Login</h1>
             <form action="login" method="post">
-                <input type="text" name="username" class="username" placeholder="Username">
-                <input type="password" name="password" class="password" placeholder="Password">
-                <button type="submit">Sign  in</button>
-                <button type="button" style="background: #FFF68F; border: #FFF68F" >Sign up</button>
+                <input type="text" name="username" class="username" placeholder="请输入用户名">
+                <input type="password" name="password" class="password" placeholder="请输入密码">
+                <button type="submit" >登录</button>
+                <button type="button" style="background: #FFF68F; border: #FFF68F ;color:red" onclick="signup()" >注册</button>
                 <input  class="power"  type="radio" name="power"  value="admin"/>&nbsp<span class="check">管理员</span>
                 <input class="power" type="radio" name="power"  value="counter"  checked="checked"/>&nbsp<span class="check">用户</span>
                 <input class="power" type="checkbox" name="remember" value="remenber" />&nbsp<span class="check">記住密碼</span>
@@ -59,7 +59,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         <script src="js/supersized.3.2.7.min.js"></script>
         <script src="js/supersized-init.js"></script>
         <script src="js/scripts.js"></script>
-
+		<script type="text/javascript">
+			
+				function signup(){
+					location.href="register.jsp";
+				}
+			
+		</script>
     </body>
 
 </html>

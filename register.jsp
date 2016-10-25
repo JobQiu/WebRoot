@@ -15,7 +15,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <title>H+ 后台主题UI框架 - 注册</title>
+    <title>注册</title>
     <meta name="keywords" content="H+后台主题,后台bootstrap框架,会员中心主题,后台HTML,响应式后台">
     <meta name="description" content="H+是一个完全响应式，基于Bootstrap3最新版本开发的扁平化主题，她采用了主流的左右两栏式布局，使用了Html5+CSS3等现代技术">
 <!-- 原CSS -->
@@ -29,7 +29,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/supersized.css">
         <link rel="stylesheet" href="css/style.css">
-<script>if(window.top !== window.self){ window.top.location = window.location;}</script>
+	<style type="text/css">
+		.backlogin{
+			margin-top: 20px;
+		}
+	</style>
 
 </head>
 
@@ -56,23 +60,21 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                             <input type="checkbox"><i></i> 我同意注册协议</label>
                     </div>
                 </div> -->
-                <button type="submit" >注 册</button>
+                <button type="submit"  style="font-family: '微软雅黑' ;">注 册</button>
 				<div class="error"><span>+</span></div>
-                <p class="text-muted text-center"><small>已经有账户了？</small><a href="index.jsp">点此登录</a>
+				<div class="backlogin"><p >已经有账户了？<a href="index.jsp" style="text-decoration: none;color:yellow;">点此登录</a></div>
+                
                 </p>
 
             </form>
         </div>
     </div>
     <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/icheck.min.js"></script>
+    
     <script src="js/supersized.3.2.7.min.js"></script>
         <script src="js/supersized-init.js"></script>
         <script src="js/scripts.js"></script>
-    <script>
-        $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green",})});
-    </script>
+    
     <script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
 </body>
 
