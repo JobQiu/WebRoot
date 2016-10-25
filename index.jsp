@@ -34,8 +34,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         <div class="page-container">
             <h1>Login</h1>
             <form action="login" method="post">
-                <input type="text" name="username" class="username" placeholder="请输入用户名">
-                <input type="password" name="password" class="password" placeholder="请输入密码">
+                <input type="text" name="adminName" class="username" placeholder="请输入用户名">
+                <input type="password" name="adminPassword" class="password" placeholder="请输入密码">
                 <button type="submit" >登录</button>
                 <button type="button" style="background: #FFF68F; border: #FFF68F ;color:red" onclick="signup()" >注册</button>
                 <input  class="power"  type="radio" name="power"  value="admin"/>&nbsp<span class="check">管理员</span>
