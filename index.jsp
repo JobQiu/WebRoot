@@ -31,21 +31,25 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
         <div class="page-container">
             <h1>Login</h1>
-            <form action="" method="post">
+            <form action="login" method="post">
                 <input type="text" name="username" class="username" placeholder="Username">
                 <input type="password" name="password" class="password" placeholder="Password">
                 <button type="submit">Sign me in</button>
+                <input  class="power"  type="radio" name="power"  value="admin"/>&nbsp<span class="check">管理员</span>
+                <input class="power" type="radio" name="power"  value="counter"  checked="checked"/>&nbsp<span class="check">用户</span>
+                <input class="power" type="checkbox" name="remember" value="remenber" />&nbsp<span class="check">記住密碼</span>
+                <span class="check"><a href="">忘記密碼</a></span>
                 <div class="error"><span>+</span></div>
             </form>
-            <div class="connect">
+            <!-- <div class="connect">
                 <p>Or connect with:</p>
                 <p>
                     <a class="facebook" href=""></a>
                     <a class="twitter" href=""></a>
                 </p>
-            </div>
-        </div>
-        <div align="center">Collect from <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a></div>
+            </div> -->
+       <!--  </div>
+        <div align="center">Collect from <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a></div> -->
 
         <!-- Javascript -->
         <script src="js/jquery-1.8.2.min.js"></script>

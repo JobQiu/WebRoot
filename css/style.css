@@ -55,8 +55,26 @@ input {
     -moz-transition: all .2s;
     -webkit-transition: all .2s;
     -ms-transition: all .2s;
+    
 }
-
+.power{
+	display:inline-block;
+	width: 15px;
+	height: 15px;
+	padding: 0px;
+	text-align: right;
+	 background:transparent; 
+	 margin-top: 15px;
+	border: 1px solid blue;
+}
+.check{
+	
+	font-family: 微软雅黑;
+	
+	/* border: 1px solid red;  */
+	
+	
+}
 input:-moz-placeholder { color: #fff; }
 input:-ms-input-placeholder { color: #fff; }
 input::-webkit-input-placeholder { color: #fff; }
