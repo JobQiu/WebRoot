@@ -16,9 +16,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
         <!-- CSS -->
         <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>
-        <link rel="stylesheet" href="WEB-INF/css/reset.css">
-        <link rel="stylesheet" href="WEB-INF/css/supersized.css">
-        <link rel="stylesheet" href="WEB-INF/css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/supersized.css">
+        <link rel="stylesheet" href="css/style.css">
 
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
@@ -48,10 +48,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         <div align="center">Collect from <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a></div>
 
         <!-- Javascript -->
-        <script src="WEB-INF/js/jquery-1.8.2.min.js"></script>
-        <script src="WEB-INF/js/supersized.3.2.7.min.js"></script>
-        <script src="WEB-INF/js/supersized-init.js"></script>
-        <script src="WEB-INF/js/scripts.js"></script>
+        <script src="js/jquery-1.8.2.min.js"></script>
+        <script src="js/supersized.3.2.7.min.js"></script>
+        <script src="js/supersized-init.js"></script>
+        <script src="js/scripts.js"></script>
 
     </body>
 
