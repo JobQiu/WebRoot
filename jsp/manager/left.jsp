@@ -67,7 +67,7 @@ document.write("<div id=tt style=height:"+he+";overflow:hidden>")
                     <td width="16%" height="25"><div align="center"><img src="<%=basePath%>jsp/images/left.gif" width="10" height="10" /></div></td>
                     <td width="84%" height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
                         <tr>
-                          <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">短信群发</span></td>
+                          <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">查询交易记录</span></td>
                         </tr>
                     </table></td>
                   </tr>
@@ -75,7 +75,7 @@ document.write("<div id=tt style=height:"+he+";overflow:hidden>")
                     <td height="23"><div align="center"><img src="<%=basePath%>jsp/images/left.gif" width="10" height="10" /></div></td>
                     <td height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
                         <tr>
-                          <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">用户资料修改</span></td>
+                          <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">存款</span></td>
                         </tr>
                     </table></td>
                   </tr>
@@ -83,7 +83,7 @@ document.write("<div id=tt style=height:"+he+";overflow:hidden>")
                     <td height="23"><div align="center"><img src="<%=basePath%>jsp/images/left.gif" width="10" height="10" /></div></td>
                     <td height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
                         <tr>
-                          <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">公司信息管理</span></td>
+                          <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">取款</span></td>
                         </tr>
                     </table></td>
                   </tr>
@@ -91,7 +91,15 @@ document.write("<div id=tt style=height:"+he+";overflow:hidden>")
                     <td height="23"><div align="center"><img src="<%=basePath%>jsp/images/left.gif" width="10" height="10" /></div></td>
                     <td height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
                         <tr>
-                          <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">其他业务</span></td>
+                          <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">转账</span></td>
+                        </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td height="23"><div align="center"><img src="<%=basePath%>jsp/images/left.gif" width="10" height="10" /></div></td>
+                    <td height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">注销</span></td>
                         </tr>
                     </table></td>
                   </tr>
@@ -111,7 +119,7 @@ document.write("<div id=tt style=height:"+he+";overflow:hidden>")
             <td height="23" background="<%=basePath%>jsp/images/main_47.gif" id="imgmenu2" class="menu_title" onmouseover="this.className='menu_title2';" onclick="showsubmenu(2)" onmouseout="this.className='menu_title';" style="cursor:hand"><table width="100%" border="0" cellspacing="0" cellpadding="0">
                 <tr>
                   <td width="18%">&nbsp;</td>
-                  <td width="82%" class="STYLE1">系统管理</td>
+                  <td width="82%" class="STYLE1">个人信息管理</td>
                 </tr>
             </table></td>
           </tr>
@@ -124,7 +132,7 @@ document.write("<div id=tt style=height:"+he+";overflow:hidden>")
                           <td width="16%" height="25"><div align="center"><img src="<%=basePath%>jsp/images/left.gif" width="10" height="10" /></div></td>
                           <td width="84%" height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
                               <tr>
-                                <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">系统配置</span></td>
+                                <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">查看个人信息</span></td>
                               </tr>
                           </table></td>
                         </tr>
@@ -132,26 +140,11 @@ document.write("<div id=tt style=height:"+he+";overflow:hidden>")
                           <td height="23"><div align="center"><img src="<%=basePath%>jsp/images/left.gif" width="10" height="10" /></div></td>
                           <td height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
                               <tr>
-                                <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">修改用户密码</span></td>
+                                <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">修改密码</span></td>
                               </tr>
                           </table></td>
                         </tr>
-                        <tr>
-                          <td height="23"><div align="center"><img src="<%=basePath%>jsp/images/left.gif" width="10" height="10" /></div></td>
-                          <td height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
-                              <tr>
-                                <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">数据更新</span></td>
-                              </tr>
-                          </table></td>
-                        </tr>
-                        <tr>
-                          <td height="23"><div align="center"><img src="<%=basePath%>jsp/images/left.gif" width="10" height="10" /></div></td>
-                          <td height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
-                              <tr>
-                                <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">网站维护</span></td>
-                              </tr>
-                          </table></td>
-                        </tr>
+                        
                     </table></td>
                   </tr>
                   <tr>
@@ -168,7 +161,7 @@ document.write("<div id=tt style=height:"+he+";overflow:hidden>")
             <td height="23" background="<%=basePath%>jsp/images/main_47.gif" id="imgmenu3" class="menu_title" onmouseover="this.className='menu_title2';" onclick="showsubmenu(3)" onmouseout="this.className='menu_title';" style="cursor:hand"><table width="100%" border="0" cellspacing="0" cellpadding="0">
                 <tr>
                   <td width="18%">&nbsp;</td>
-                  <td width="82%" class="STYLE1">安全管理</td>
+                  <td width="82%" class="STYLE1">新闻管理</td>
                 </tr>
             </table></td>
           </tr>
@@ -181,7 +174,7 @@ document.write("<div id=tt style=height:"+he+";overflow:hidden>")
                           <td width="16%" height="25"><div align="center"><img src="<%=basePath%>jsp/images/left.gif" width="10" height="10" /></div></td>
                           <td width="84%" height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
                               <tr>
-                                <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">企业安全</span></td>
+                                <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">查看新闻</span></td>
                               </tr>
                           </table></td>
                         </tr>
@@ -189,26 +182,11 @@ document.write("<div id=tt style=height:"+he+";overflow:hidden>")
                           <td height="23"><div align="center"><img src="<%=basePath%>jsp/images/left.gif" width="10" height="10" /></div></td>
                           <td height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
                               <tr>
-                                <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">信息安全管理</span></td>
+                                <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">新增新闻</span></td>
                               </tr>
                           </table></td>
                         </tr>
-                        <tr>
-                          <td height="23"><div align="center"><img src="<%=basePath%>jsp/images/left.gif" width="10" height="10" /></div></td>
-                          <td height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
-                              <tr>
-                                <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">安全审计</span></td>
-                              </tr>
-                          </table></td>
-                        </tr>
-                        <tr>
-                          <td height="23"><div align="center"><img src="<%=basePath%>jsp/images/left.gif" width="10" height="10" /></div></td>
-                          <td height="23"><table width="95%" border="0" cellspacing="0" cellpadding="0">
-                              <tr>
-                                <td height="20" style="cursor:hand" onmouseover="this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#7bc4d3'; "onmouseout="this.style.borderStyle='none'"><span class="STYLE3">网站安全</span></td>
-                              </tr>
-                          </table></td>
-                        </tr>
+                       
                     </table></td>
                   </tr>
                   <tr>
